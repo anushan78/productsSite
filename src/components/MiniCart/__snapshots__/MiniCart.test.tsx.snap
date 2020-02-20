@@ -1,0 +1,2350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCard /> Should match snapshot 1`] = `
+<MiniCart
+  cart={
+    Array [
+      Object {
+        "product": Object {
+          "id": "f56cb6f2-a926-4ff4-80be-4518b0d1997d",
+          "imageUrl": "https://s.catch.com.au/images/product/0001/1431/57aa8e0fcba93464428129_w200.jpg",
+          "name": "Havaianas Top Thongs -  Black",
+          "quantityAvailable": 71,
+          "retailPrice": 2500,
+          "salePrice": 1499,
+        },
+        "quantity": 1,
+      },
+      Object {
+        "product": Object {
+          "id": "46397d56-2726-45de-8514-d8ed6984a600",
+          "imageUrl": "https://s.catch.com.au/images/product/0001/1909/5d47c0d64988e613254534_w200.jpg",
+          "name": "4 x 60pk Finish Quantum Max Powerball Super Charged Dishwashing Caps Lemon Sparkle",
+          "quantityAvailable": 56,
+          "retailPrice": 18417,
+          "salePrice": 5900,
+        },
+        "quantity": 1,
+      },
+      Object {
+        "product": Object {
+          "id": "1b7d187a-d015-42ee-97e4-669b27b8d92f",
+          "imageUrl": "https://s.catch.com.au/images/product/0001/1891/57ac11b61d049250349167_w200.jpg",
+          "name": "Havaianas Slim Thongs - Black",
+          "quantityAvailable": 33,
+          "retailPrice": 3000,
+          "salePrice": 1999,
+        },
+        "quantity": 2,
+      },
+    ]
+  }
+  removeFromCart={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "f56cb6f2-a926-4ff4-80be-4518b0d1997d",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  updateQuantity={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          3,
+          "f56cb6f2-a926-4ff4-80be-4518b0d1997d",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Popover
+    content={
+      <div>
+        <div
+          className="frv35n8"
+        >
+          <img
+            src="https://s.catch.com.au/images/product/0001/1431/57aa8e0fcba93464428129_w200.jpg"
+          />
+          <div>
+            <p>
+              Havaianas Top Thongs -  Black
+            </p>
+            qty: 
+            <InputNumber
+              min={1}
+              onChange={[Function]}
+              precision={0}
+              step={1}
+              style={
+                Object {
+                  "width": "54px",
+                }
+              }
+              value={1}
+            />
+            <Button
+              block={false}
+              ghost={false}
+              htmlType="button"
+              loading={false}
+              onClick={[Function]}
+              type="link"
+            >
+              <FontAwesomeIcon
+                border={false}
+                className=""
+                fixedWidth={false}
+                flip={null}
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f057",
+                      "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                    ],
+                    "iconName": "times-circle",
+                    "prefix": "fas",
+                  }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                swapOpacity={false}
+                symbol={false}
+                title=""
+                transform={null}
+              />
+            </Button>
+          </div>
+        </div>
+        <div
+          className="frv35n8"
+        >
+          <img
+            src="https://s.catch.com.au/images/product/0001/1909/5d47c0d64988e613254534_w200.jpg"
+          />
+          <div>
+            <p>
+              4 x 60pk Finish Quantum Max Powerball Super Charged Dishwashing Caps Lemon Sparkle
+            </p>
+            qty: 
+            <InputNumber
+              min={1}
+              onChange={[Function]}
+              precision={0}
+              step={1}
+              style={
+                Object {
+                  "width": "54px",
+                }
+              }
+              value={1}
+            />
+            <Button
+              block={false}
+              ghost={false}
+              htmlType="button"
+              loading={false}
+              onClick={[Function]}
+              type="link"
+            >
+              <FontAwesomeIcon
+                border={false}
+                className=""
+                fixedWidth={false}
+                flip={null}
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f057",
+                      "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                    ],
+                    "iconName": "times-circle",
+                    "prefix": "fas",
+                  }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                swapOpacity={false}
+                symbol={false}
+                title=""
+                transform={null}
+              />
+            </Button>
+          </div>
+        </div>
+        <div
+          className="frv35n8"
+        >
+          <img
+            src="https://s.catch.com.au/images/product/0001/1891/57ac11b61d049250349167_w200.jpg"
+          />
+          <div>
+            <p>
+              Havaianas Slim Thongs - Black
+            </p>
+            qty: 
+            <InputNumber
+              min={1}
+              onChange={[Function]}
+              precision={0}
+              step={1}
+              style={
+                Object {
+                  "width": "54px",
+                }
+              }
+              value={2}
+            />
+            <Button
+              block={false}
+              ghost={false}
+              htmlType="button"
+              loading={false}
+              onClick={[Function]}
+              type="link"
+            >
+              <FontAwesomeIcon
+                border={false}
+                className=""
+                fixedWidth={false}
+                flip={null}
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f057",
+                      "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                    ],
+                    "iconName": "times-circle",
+                    "prefix": "fas",
+                  }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                swapOpacity={false}
+                symbol={false}
+                title=""
+                transform={null}
+              />
+            </Button>
+          </div>
+        </div>
+      </div>
+    }
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    overlayStyle={Object {}}
+    placement="bottomRight"
+    title="Shopping cart"
+    transitionName="zoom-big"
+    trigger="hover"
+  >
+    <Tooltip
+      arrowPointAtCenter={false}
+      autoAdjustOverflow={true}
+      content={
+        <div>
+          <div
+            className="frv35n8"
+          >
+            <img
+              src="https://s.catch.com.au/images/product/0001/1431/57aa8e0fcba93464428129_w200.jpg"
+            />
+            <div>
+              <p>
+                Havaianas Top Thongs -  Black
+              </p>
+              qty: 
+              <InputNumber
+                min={1}
+                onChange={[Function]}
+                precision={0}
+                step={1}
+                style={
+                  Object {
+                    "width": "54px",
+                  }
+                }
+                value={1}
+              />
+              <Button
+                block={false}
+                ghost={false}
+                htmlType="button"
+                loading={false}
+                onClick={[Function]}
+                type="link"
+              >
+                <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f057",
+                        "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                      ],
+                      "iconName": "times-circle",
+                      "prefix": "fas",
+                    }
+                  }
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  swapOpacity={false}
+                  symbol={false}
+                  title=""
+                  transform={null}
+                />
+              </Button>
+            </div>
+          </div>
+          <div
+            className="frv35n8"
+          >
+            <img
+              src="https://s.catch.com.au/images/product/0001/1909/5d47c0d64988e613254534_w200.jpg"
+            />
+            <div>
+              <p>
+                4 x 60pk Finish Quantum Max Powerball Super Charged Dishwashing Caps Lemon Sparkle
+              </p>
+              qty: 
+              <InputNumber
+                min={1}
+                onChange={[Function]}
+                precision={0}
+                step={1}
+                style={
+                  Object {
+                    "width": "54px",
+                  }
+                }
+                value={1}
+              />
+              <Button
+                block={false}
+                ghost={false}
+                htmlType="button"
+                loading={false}
+                onClick={[Function]}
+                type="link"
+              >
+                <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f057",
+                        "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                      ],
+                      "iconName": "times-circle",
+                      "prefix": "fas",
+                    }
+                  }
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  swapOpacity={false}
+                  symbol={false}
+                  title=""
+                  transform={null}
+                />
+              </Button>
+            </div>
+          </div>
+          <div
+            className="frv35n8"
+          >
+            <img
+              src="https://s.catch.com.au/images/product/0001/1891/57ac11b61d049250349167_w200.jpg"
+            />
+            <div>
+              <p>
+                Havaianas Slim Thongs - Black
+              </p>
+              qty: 
+              <InputNumber
+                min={1}
+                onChange={[Function]}
+                precision={0}
+                step={1}
+                style={
+                  Object {
+                    "width": "54px",
+                  }
+                }
+                value={2}
+              />
+              <Button
+                block={false}
+                ghost={false}
+                htmlType="button"
+                loading={false}
+                onClick={[Function]}
+                type="link"
+              >
+                <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f057",
+                        "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                      ],
+                      "iconName": "times-circle",
+                      "prefix": "fas",
+                    }
+                  }
+                  inverse={false}
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  swapOpacity={false}
+                  symbol={false}
+                  title=""
+                  transform={null}
+                />
+              </Button>
+            </div>
+          </div>
+        </div>
+      }
+      mouseEnterDelay={0.1}
+      mouseLeaveDelay={0.1}
+      overlay={
+        <div>
+          <div
+            className="ant-popover-title"
+          >
+            Shopping cart
+          </div>
+          <div
+            className="ant-popover-inner-content"
+          >
+            <div>
+              <div
+                className="frv35n8"
+              >
+                <img
+                  src="https://s.catch.com.au/images/product/0001/1431/57aa8e0fcba93464428129_w200.jpg"
+                />
+                <div>
+                  <p>
+                    Havaianas Top Thongs -  Black
+                  </p>
+                  qty: 
+                  <InputNumber
+                    min={1}
+                    onChange={[Function]}
+                    precision={0}
+                    step={1}
+                    style={
+                      Object {
+                        "width": "54px",
+                      }
+                    }
+                    value={1}
+                  />
+                  <Button
+                    block={false}
+                    ghost={false}
+                    htmlType="button"
+                    loading={false}
+                    onClick={[Function]}
+                    type="link"
+                  >
+                    <FontAwesomeIcon
+                      border={false}
+                      className=""
+                      fixedWidth={false}
+                      flip={null}
+                      icon={
+                        Object {
+                          "icon": Array [
+                            512,
+                            512,
+                            Array [],
+                            "f057",
+                            "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                          ],
+                          "iconName": "times-circle",
+                          "prefix": "fas",
+                        }
+                      }
+                      inverse={false}
+                      listItem={false}
+                      mask={null}
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size={null}
+                      spin={false}
+                      swapOpacity={false}
+                      symbol={false}
+                      title=""
+                      transform={null}
+                    />
+                  </Button>
+                </div>
+              </div>
+              <div
+                className="frv35n8"
+              >
+                <img
+                  src="https://s.catch.com.au/images/product/0001/1909/5d47c0d64988e613254534_w200.jpg"
+                />
+                <div>
+                  <p>
+                    4 x 60pk Finish Quantum Max Powerball Super Charged Dishwashing Caps Lemon Sparkle
+                  </p>
+                  qty: 
+                  <InputNumber
+                    min={1}
+                    onChange={[Function]}
+                    precision={0}
+                    step={1}
+                    style={
+                      Object {
+                        "width": "54px",
+                      }
+                    }
+                    value={1}
+                  />
+                  <Button
+                    block={false}
+                    ghost={false}
+                    htmlType="button"
+                    loading={false}
+                    onClick={[Function]}
+                    type="link"
+                  >
+                    <FontAwesomeIcon
+                      border={false}
+                      className=""
+                      fixedWidth={false}
+                      flip={null}
+                      icon={
+                        Object {
+                          "icon": Array [
+                            512,
+                            512,
+                            Array [],
+                            "f057",
+                            "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                          ],
+                          "iconName": "times-circle",
+                          "prefix": "fas",
+                        }
+                      }
+                      inverse={false}
+                      listItem={false}
+                      mask={null}
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size={null}
+                      spin={false}
+                      swapOpacity={false}
+                      symbol={false}
+                      title=""
+                      transform={null}
+                    />
+                  </Button>
+                </div>
+              </div>
+              <div
+                className="frv35n8"
+              >
+                <img
+                  src="https://s.catch.com.au/images/product/0001/1891/57ac11b61d049250349167_w200.jpg"
+                />
+                <div>
+                  <p>
+                    Havaianas Slim Thongs - Black
+                  </p>
+                  qty: 
+                  <InputNumber
+                    min={1}
+                    onChange={[Function]}
+                    precision={0}
+                    step={1}
+                    style={
+                      Object {
+                        "width": "54px",
+                      }
+                    }
+                    value={2}
+                  />
+                  <Button
+                    block={false}
+                    ghost={false}
+                    htmlType="button"
+                    loading={false}
+                    onClick={[Function]}
+                    type="link"
+                  >
+                    <FontAwesomeIcon
+                      border={false}
+                      className=""
+                      fixedWidth={false}
+                      flip={null}
+                      icon={
+                        Object {
+                          "icon": Array [
+                            512,
+                            512,
+                            Array [],
+                            "f057",
+                            "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                          ],
+                          "iconName": "times-circle",
+                          "prefix": "fas",
+                        }
+                      }
+                      inverse={false}
+                      listItem={false}
+                      mask={null}
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size={null}
+                      spin={false}
+                      swapOpacity={false}
+                      symbol={false}
+                      title=""
+                      transform={null}
+                    />
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+      overlayStyle={Object {}}
+      placement="bottomRight"
+      prefixCls="ant-popover"
+      transitionName="zoom-big"
+      trigger="hover"
+    >
+      <Tooltip
+        align={Object {}}
+        arrowContent={null}
+        arrowPointAtCenter={false}
+        autoAdjustOverflow={true}
+        builtinPlacements={
+          Object {
+            "bottom": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                0,
+                4,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "tc",
+                "bc",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+            "bottomLeft": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                0,
+                4,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "tl",
+                "bl",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+            "bottomRight": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                0,
+                4,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "tr",
+                "br",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+            "left": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                -4,
+                0,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "cr",
+                "cl",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+            "leftBottom": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                -4,
+                0,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "br",
+                "bl",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+            "leftTop": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                -4,
+                0,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "tr",
+                "tl",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+            "right": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                4,
+                0,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "cl",
+                "cr",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+            "rightBottom": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                4,
+                0,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "bl",
+                "br",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+            "rightTop": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                4,
+                0,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "tl",
+                "tr",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+            "top": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                0,
+                -4,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "bc",
+                "tc",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+            "topLeft": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                0,
+                -4,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "bl",
+                "tl",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+            "topRight": Object {
+              "ignoreShake": true,
+              "offset": Array [
+                0,
+                -4,
+              ],
+              "overflow": Object {
+                "adjustX": 1,
+                "adjustY": 1,
+              },
+              "points": Array [
+                "br",
+                "tr",
+              ],
+              "targetOffset": Array [
+                0,
+                0,
+              ],
+            },
+          }
+        }
+        content={
+          <div>
+            <div
+              className="frv35n8"
+            >
+              <img
+                src="https://s.catch.com.au/images/product/0001/1431/57aa8e0fcba93464428129_w200.jpg"
+              />
+              <div>
+                <p>
+                  Havaianas Top Thongs -  Black
+                </p>
+                qty: 
+                <InputNumber
+                  min={1}
+                  onChange={[Function]}
+                  precision={0}
+                  step={1}
+                  style={
+                    Object {
+                      "width": "54px",
+                    }
+                  }
+                  value={1}
+                />
+                <Button
+                  block={false}
+                  ghost={false}
+                  htmlType="button"
+                  loading={false}
+                  onClick={[Function]}
+                  type="link"
+                >
+                  <FontAwesomeIcon
+                    border={false}
+                    className=""
+                    fixedWidth={false}
+                    flip={null}
+                    icon={
+                      Object {
+                        "icon": Array [
+                          512,
+                          512,
+                          Array [],
+                          "f057",
+                          "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                        ],
+                        "iconName": "times-circle",
+                        "prefix": "fas",
+                      }
+                    }
+                    inverse={false}
+                    listItem={false}
+                    mask={null}
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size={null}
+                    spin={false}
+                    swapOpacity={false}
+                    symbol={false}
+                    title=""
+                    transform={null}
+                  />
+                </Button>
+              </div>
+            </div>
+            <div
+              className="frv35n8"
+            >
+              <img
+                src="https://s.catch.com.au/images/product/0001/1909/5d47c0d64988e613254534_w200.jpg"
+              />
+              <div>
+                <p>
+                  4 x 60pk Finish Quantum Max Powerball Super Charged Dishwashing Caps Lemon Sparkle
+                </p>
+                qty: 
+                <InputNumber
+                  min={1}
+                  onChange={[Function]}
+                  precision={0}
+                  step={1}
+                  style={
+                    Object {
+                      "width": "54px",
+                    }
+                  }
+                  value={1}
+                />
+                <Button
+                  block={false}
+                  ghost={false}
+                  htmlType="button"
+                  loading={false}
+                  onClick={[Function]}
+                  type="link"
+                >
+                  <FontAwesomeIcon
+                    border={false}
+                    className=""
+                    fixedWidth={false}
+                    flip={null}
+                    icon={
+                      Object {
+                        "icon": Array [
+                          512,
+                          512,
+                          Array [],
+                          "f057",
+                          "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                        ],
+                        "iconName": "times-circle",
+                        "prefix": "fas",
+                      }
+                    }
+                    inverse={false}
+                    listItem={false}
+                    mask={null}
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size={null}
+                    spin={false}
+                    swapOpacity={false}
+                    symbol={false}
+                    title=""
+                    transform={null}
+                  />
+                </Button>
+              </div>
+            </div>
+            <div
+              className="frv35n8"
+            >
+              <img
+                src="https://s.catch.com.au/images/product/0001/1891/57ac11b61d049250349167_w200.jpg"
+              />
+              <div>
+                <p>
+                  Havaianas Slim Thongs - Black
+                </p>
+                qty: 
+                <InputNumber
+                  min={1}
+                  onChange={[Function]}
+                  precision={0}
+                  step={1}
+                  style={
+                    Object {
+                      "width": "54px",
+                    }
+                  }
+                  value={2}
+                />
+                <Button
+                  block={false}
+                  ghost={false}
+                  htmlType="button"
+                  loading={false}
+                  onClick={[Function]}
+                  type="link"
+                >
+                  <FontAwesomeIcon
+                    border={false}
+                    className=""
+                    fixedWidth={false}
+                    flip={null}
+                    icon={
+                      Object {
+                        "icon": Array [
+                          512,
+                          512,
+                          Array [],
+                          "f057",
+                          "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                        ],
+                        "iconName": "times-circle",
+                        "prefix": "fas",
+                      }
+                    }
+                    inverse={false}
+                    listItem={false}
+                    mask={null}
+                    pull={null}
+                    pulse={false}
+                    rotation={null}
+                    size={null}
+                    spin={false}
+                    swapOpacity={false}
+                    symbol={false}
+                    title=""
+                    transform={null}
+                  />
+                </Button>
+              </div>
+            </div>
+          </div>
+        }
+        destroyTooltipOnHide={false}
+        mouseEnterDelay={0.1}
+        mouseLeaveDelay={0.1}
+        onPopupAlign={[Function]}
+        onVisibleChange={[Function]}
+        overlay={
+          <div>
+            <div
+              className="ant-popover-title"
+            >
+              Shopping cart
+            </div>
+            <div
+              className="ant-popover-inner-content"
+            >
+              <div>
+                <div
+                  className="frv35n8"
+                >
+                  <img
+                    src="https://s.catch.com.au/images/product/0001/1431/57aa8e0fcba93464428129_w200.jpg"
+                  />
+                  <div>
+                    <p>
+                      Havaianas Top Thongs -  Black
+                    </p>
+                    qty: 
+                    <InputNumber
+                      min={1}
+                      onChange={[Function]}
+                      precision={0}
+                      step={1}
+                      style={
+                        Object {
+                          "width": "54px",
+                        }
+                      }
+                      value={1}
+                    />
+                    <Button
+                      block={false}
+                      ghost={false}
+                      htmlType="button"
+                      loading={false}
+                      onClick={[Function]}
+                      type="link"
+                    >
+                      <FontAwesomeIcon
+                        border={false}
+                        className=""
+                        fixedWidth={false}
+                        flip={null}
+                        icon={
+                          Object {
+                            "icon": Array [
+                              512,
+                              512,
+                              Array [],
+                              "f057",
+                              "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                            ],
+                            "iconName": "times-circle",
+                            "prefix": "fas",
+                          }
+                        }
+                        inverse={false}
+                        listItem={false}
+                        mask={null}
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size={null}
+                        spin={false}
+                        swapOpacity={false}
+                        symbol={false}
+                        title=""
+                        transform={null}
+                      />
+                    </Button>
+                  </div>
+                </div>
+                <div
+                  className="frv35n8"
+                >
+                  <img
+                    src="https://s.catch.com.au/images/product/0001/1909/5d47c0d64988e613254534_w200.jpg"
+                  />
+                  <div>
+                    <p>
+                      4 x 60pk Finish Quantum Max Powerball Super Charged Dishwashing Caps Lemon Sparkle
+                    </p>
+                    qty: 
+                    <InputNumber
+                      min={1}
+                      onChange={[Function]}
+                      precision={0}
+                      step={1}
+                      style={
+                        Object {
+                          "width": "54px",
+                        }
+                      }
+                      value={1}
+                    />
+                    <Button
+                      block={false}
+                      ghost={false}
+                      htmlType="button"
+                      loading={false}
+                      onClick={[Function]}
+                      type="link"
+                    >
+                      <FontAwesomeIcon
+                        border={false}
+                        className=""
+                        fixedWidth={false}
+                        flip={null}
+                        icon={
+                          Object {
+                            "icon": Array [
+                              512,
+                              512,
+                              Array [],
+                              "f057",
+                              "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                            ],
+                            "iconName": "times-circle",
+                            "prefix": "fas",
+                          }
+                        }
+                        inverse={false}
+                        listItem={false}
+                        mask={null}
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size={null}
+                        spin={false}
+                        swapOpacity={false}
+                        symbol={false}
+                        title=""
+                        transform={null}
+                      />
+                    </Button>
+                  </div>
+                </div>
+                <div
+                  className="frv35n8"
+                >
+                  <img
+                    src="https://s.catch.com.au/images/product/0001/1891/57ac11b61d049250349167_w200.jpg"
+                  />
+                  <div>
+                    <p>
+                      Havaianas Slim Thongs - Black
+                    </p>
+                    qty: 
+                    <InputNumber
+                      min={1}
+                      onChange={[Function]}
+                      precision={0}
+                      step={1}
+                      style={
+                        Object {
+                          "width": "54px",
+                        }
+                      }
+                      value={2}
+                    />
+                    <Button
+                      block={false}
+                      ghost={false}
+                      htmlType="button"
+                      loading={false}
+                      onClick={[Function]}
+                      type="link"
+                    >
+                      <FontAwesomeIcon
+                        border={false}
+                        className=""
+                        fixedWidth={false}
+                        flip={null}
+                        icon={
+                          Object {
+                            "icon": Array [
+                              512,
+                              512,
+                              Array [],
+                              "f057",
+                              "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                            ],
+                            "iconName": "times-circle",
+                            "prefix": "fas",
+                          }
+                        }
+                        inverse={false}
+                        listItem={false}
+                        mask={null}
+                        pull={null}
+                        pulse={false}
+                        rotation={null}
+                        size={null}
+                        spin={false}
+                        swapOpacity={false}
+                        symbol={false}
+                        title=""
+                        transform={null}
+                      />
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+        overlayStyle={Object {}}
+        placement="bottomRight"
+        prefixCls="ant-popover"
+        transitionName="zoom-big"
+        trigger="hover"
+        visible={false}
+      >
+        <Trigger
+          action="hover"
+          afterPopupVisibleChange={[Function]}
+          arrowContent={null}
+          arrowPointAtCenter={false}
+          autoAdjustOverflow={true}
+          blurDelay={0.15}
+          builtinPlacements={
+            Object {
+              "bottom": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  0,
+                  4,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "tc",
+                  "bc",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+              "bottomLeft": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  0,
+                  4,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "tl",
+                  "bl",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+              "bottomRight": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  0,
+                  4,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "tr",
+                  "br",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+              "left": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  -4,
+                  0,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "cr",
+                  "cl",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+              "leftBottom": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  -4,
+                  0,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "br",
+                  "bl",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+              "leftTop": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  -4,
+                  0,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "tr",
+                  "tl",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+              "right": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  4,
+                  0,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "cl",
+                  "cr",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+              "rightBottom": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  4,
+                  0,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "bl",
+                  "br",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+              "rightTop": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  4,
+                  0,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "tl",
+                  "tr",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+              "top": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  0,
+                  -4,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "bc",
+                  "tc",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+              "topLeft": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  0,
+                  -4,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "bl",
+                  "tl",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+              "topRight": Object {
+                "ignoreShake": true,
+                "offset": Array [
+                  0,
+                  -4,
+                ],
+                "overflow": Object {
+                  "adjustX": 1,
+                  "adjustY": 1,
+                },
+                "points": Array [
+                  "br",
+                  "tr",
+                ],
+                "targetOffset": Array [
+                  0,
+                  0,
+                ],
+              },
+            }
+          }
+          content={
+            <div>
+              <div
+                className="frv35n8"
+              >
+                <img
+                  src="https://s.catch.com.au/images/product/0001/1431/57aa8e0fcba93464428129_w200.jpg"
+                />
+                <div>
+                  <p>
+                    Havaianas Top Thongs -  Black
+                  </p>
+                  qty: 
+                  <InputNumber
+                    min={1}
+                    onChange={[Function]}
+                    precision={0}
+                    step={1}
+                    style={
+                      Object {
+                        "width": "54px",
+                      }
+                    }
+                    value={1}
+                  />
+                  <Button
+                    block={false}
+                    ghost={false}
+                    htmlType="button"
+                    loading={false}
+                    onClick={[Function]}
+                    type="link"
+                  >
+                    <FontAwesomeIcon
+                      border={false}
+                      className=""
+                      fixedWidth={false}
+                      flip={null}
+                      icon={
+                        Object {
+                          "icon": Array [
+                            512,
+                            512,
+                            Array [],
+                            "f057",
+                            "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                          ],
+                          "iconName": "times-circle",
+                          "prefix": "fas",
+                        }
+                      }
+                      inverse={false}
+                      listItem={false}
+                      mask={null}
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size={null}
+                      spin={false}
+                      swapOpacity={false}
+                      symbol={false}
+                      title=""
+                      transform={null}
+                    />
+                  </Button>
+                </div>
+              </div>
+              <div
+                className="frv35n8"
+              >
+                <img
+                  src="https://s.catch.com.au/images/product/0001/1909/5d47c0d64988e613254534_w200.jpg"
+                />
+                <div>
+                  <p>
+                    4 x 60pk Finish Quantum Max Powerball Super Charged Dishwashing Caps Lemon Sparkle
+                  </p>
+                  qty: 
+                  <InputNumber
+                    min={1}
+                    onChange={[Function]}
+                    precision={0}
+                    step={1}
+                    style={
+                      Object {
+                        "width": "54px",
+                      }
+                    }
+                    value={1}
+                  />
+                  <Button
+                    block={false}
+                    ghost={false}
+                    htmlType="button"
+                    loading={false}
+                    onClick={[Function]}
+                    type="link"
+                  >
+                    <FontAwesomeIcon
+                      border={false}
+                      className=""
+                      fixedWidth={false}
+                      flip={null}
+                      icon={
+                        Object {
+                          "icon": Array [
+                            512,
+                            512,
+                            Array [],
+                            "f057",
+                            "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                          ],
+                          "iconName": "times-circle",
+                          "prefix": "fas",
+                        }
+                      }
+                      inverse={false}
+                      listItem={false}
+                      mask={null}
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size={null}
+                      spin={false}
+                      swapOpacity={false}
+                      symbol={false}
+                      title=""
+                      transform={null}
+                    />
+                  </Button>
+                </div>
+              </div>
+              <div
+                className="frv35n8"
+              >
+                <img
+                  src="https://s.catch.com.au/images/product/0001/1891/57ac11b61d049250349167_w200.jpg"
+                />
+                <div>
+                  <p>
+                    Havaianas Slim Thongs - Black
+                  </p>
+                  qty: 
+                  <InputNumber
+                    min={1}
+                    onChange={[Function]}
+                    precision={0}
+                    step={1}
+                    style={
+                      Object {
+                        "width": "54px",
+                      }
+                    }
+                    value={2}
+                  />
+                  <Button
+                    block={false}
+                    ghost={false}
+                    htmlType="button"
+                    loading={false}
+                    onClick={[Function]}
+                    type="link"
+                  >
+                    <FontAwesomeIcon
+                      border={false}
+                      className=""
+                      fixedWidth={false}
+                      flip={null}
+                      icon={
+                        Object {
+                          "icon": Array [
+                            512,
+                            512,
+                            Array [],
+                            "f057",
+                            "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                          ],
+                          "iconName": "times-circle",
+                          "prefix": "fas",
+                        }
+                      }
+                      inverse={false}
+                      listItem={false}
+                      mask={null}
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size={null}
+                      spin={false}
+                      swapOpacity={false}
+                      symbol={false}
+                      title=""
+                      transform={null}
+                    />
+                  </Button>
+                </div>
+              </div>
+            </div>
+          }
+          defaultPopupVisible={false}
+          destroyPopupOnHide={false}
+          focusDelay={0}
+          getDocument={[Function]}
+          getPopupClassNameFromAlign={[Function]}
+          hideAction={Array []}
+          mask={false}
+          maskClosable={true}
+          mouseEnterDelay={0.1}
+          mouseLeaveDelay={0.1}
+          onPopupAlign={[Function]}
+          onPopupVisibleChange={[Function]}
+          overlay={
+            <div>
+              <div
+                className="ant-popover-title"
+              >
+                Shopping cart
+              </div>
+              <div
+                className="ant-popover-inner-content"
+              >
+                <div>
+                  <div
+                    className="frv35n8"
+                  >
+                    <img
+                      src="https://s.catch.com.au/images/product/0001/1431/57aa8e0fcba93464428129_w200.jpg"
+                    />
+                    <div>
+                      <p>
+                        Havaianas Top Thongs -  Black
+                      </p>
+                      qty: 
+                      <InputNumber
+                        min={1}
+                        onChange={[Function]}
+                        precision={0}
+                        step={1}
+                        style={
+                          Object {
+                            "width": "54px",
+                          }
+                        }
+                        value={1}
+                      />
+                      <Button
+                        block={false}
+                        ghost={false}
+                        htmlType="button"
+                        loading={false}
+                        onClick={[Function]}
+                        type="link"
+                      >
+                        <FontAwesomeIcon
+                          border={false}
+                          className=""
+                          fixedWidth={false}
+                          flip={null}
+                          icon={
+                            Object {
+                              "icon": Array [
+                                512,
+                                512,
+                                Array [],
+                                "f057",
+                                "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                              ],
+                              "iconName": "times-circle",
+                              "prefix": "fas",
+                            }
+                          }
+                          inverse={false}
+                          listItem={false}
+                          mask={null}
+                          pull={null}
+                          pulse={false}
+                          rotation={null}
+                          size={null}
+                          spin={false}
+                          swapOpacity={false}
+                          symbol={false}
+                          title=""
+                          transform={null}
+                        />
+                      </Button>
+                    </div>
+                  </div>
+                  <div
+                    className="frv35n8"
+                  >
+                    <img
+                      src="https://s.catch.com.au/images/product/0001/1909/5d47c0d64988e613254534_w200.jpg"
+                    />
+                    <div>
+                      <p>
+                        4 x 60pk Finish Quantum Max Powerball Super Charged Dishwashing Caps Lemon Sparkle
+                      </p>
+                      qty: 
+                      <InputNumber
+                        min={1}
+                        onChange={[Function]}
+                        precision={0}
+                        step={1}
+                        style={
+                          Object {
+                            "width": "54px",
+                          }
+                        }
+                        value={1}
+                      />
+                      <Button
+                        block={false}
+                        ghost={false}
+                        htmlType="button"
+                        loading={false}
+                        onClick={[Function]}
+                        type="link"
+                      >
+                        <FontAwesomeIcon
+                          border={false}
+                          className=""
+                          fixedWidth={false}
+                          flip={null}
+                          icon={
+                            Object {
+                              "icon": Array [
+                                512,
+                                512,
+                                Array [],
+                                "f057",
+                                "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                              ],
+                              "iconName": "times-circle",
+                              "prefix": "fas",
+                            }
+                          }
+                          inverse={false}
+                          listItem={false}
+                          mask={null}
+                          pull={null}
+                          pulse={false}
+                          rotation={null}
+                          size={null}
+                          spin={false}
+                          swapOpacity={false}
+                          symbol={false}
+                          title=""
+                          transform={null}
+                        />
+                      </Button>
+                    </div>
+                  </div>
+                  <div
+                    className="frv35n8"
+                  >
+                    <img
+                      src="https://s.catch.com.au/images/product/0001/1891/57ac11b61d049250349167_w200.jpg"
+                    />
+                    <div>
+                      <p>
+                        Havaianas Slim Thongs - Black
+                      </p>
+                      qty: 
+                      <InputNumber
+                        min={1}
+                        onChange={[Function]}
+                        precision={0}
+                        step={1}
+                        style={
+                          Object {
+                            "width": "54px",
+                          }
+                        }
+                        value={2}
+                      />
+                      <Button
+                        block={false}
+                        ghost={false}
+                        htmlType="button"
+                        loading={false}
+                        onClick={[Function]}
+                        type="link"
+                      >
+                        <FontAwesomeIcon
+                          border={false}
+                          className=""
+                          fixedWidth={false}
+                          flip={null}
+                          icon={
+                            Object {
+                              "icon": Array [
+                                512,
+                                512,
+                                Array [],
+                                "f057",
+                                "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                              ],
+                              "iconName": "times-circle",
+                              "prefix": "fas",
+                            }
+                          }
+                          inverse={false}
+                          listItem={false}
+                          mask={null}
+                          pull={null}
+                          pulse={false}
+                          rotation={null}
+                          size={null}
+                          spin={false}
+                          swapOpacity={false}
+                          symbol={false}
+                          title=""
+                          transform={null}
+                        />
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          }
+          popup={[Function]}
+          popupAlign={Object {}}
+          popupClassName=""
+          popupPlacement="bottomRight"
+          popupStyle={Object {}}
+          popupTransitionName="zoom-big"
+          popupVisible={false}
+          prefixCls="ant-popover"
+          showAction={Array []}
+          visible={false}
+        >
+          <Badge
+            count={4}
+            dot={false}
+            key="trigger"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            overflowCount={99}
+            showZero={true}
+          >
+            <span
+              className="ant-badge"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <Button
+                block={false}
+                ghost={false}
+                htmlType="button"
+                loading={false}
+              >
+                <Wave>
+                  <button
+                    className="ant-btn"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <FontAwesomeIcon
+                      border={false}
+                      className=""
+                      fixedWidth={false}
+                      flip={null}
+                      icon={
+                        Object {
+                          "icon": Array [
+                            576,
+                            512,
+                            Array [],
+                            "f07a",
+                            "M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z",
+                          ],
+                          "iconName": "shopping-cart",
+                          "prefix": "fas",
+                        }
+                      }
+                      inverse={false}
+                      key=".0"
+                      listItem={false}
+                      mask={null}
+                      pull={null}
+                      pulse={false}
+                      rotation={null}
+                      size={null}
+                      spin={false}
+                      swapOpacity={false}
+                      symbol={false}
+                      title=""
+                      transform={null}
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-shopping-cart fa-w-18 "
+                        data-icon="shopping-cart"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        style={Object {}}
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
+                          fill="currentColor"
+                          style={Object {}}
+                        />
+                      </svg>
+                    </FontAwesomeIcon>
+                  </button>
+                </Wave>
+              </Button>
+              <Animate
+                animation={Object {}}
+                component=""
+                componentProps={Object {}}
+                onAppear={[Function]}
+                onEnd={[Function]}
+                onEnter={[Function]}
+                onLeave={[Function]}
+                showProp="data-show"
+                transitionAppear={true}
+                transitionEnter={true}
+                transitionLeave={true}
+                transitionName="ant-badge-zoom"
+              >
+                <AnimateChild
+                  animation={Object {}}
+                  key="scrollNumber"
+                  transitionAppear={true}
+                  transitionEnter={true}
+                  transitionLeave={true}
+                  transitionName="ant-badge-zoom"
+                >
+                  <ScrollNumber
+                    className="ant-badge-count"
+                    count={4}
+                    data-show={true}
+                    key="scrollNumber"
+                    onAnimated={[Function]}
+                    prefixCls="ant-scroll-number"
+                    title={4}
+                  >
+                    <sup
+                      className="ant-scroll-number ant-badge-count"
+                      data-show={true}
+                      title={4}
+                    >
+                      <span
+                        className="ant-scroll-number-only"
+                        key="0"
+                        style={
+                          Object {
+                            "WebkitTransform": "translateY(-1400%)",
+                            "msTransform": "translateY(-1400%)",
+                            "transform": "translateY(-1400%)",
+                            "transition": "none",
+                          }
+                        }
+                      >
+                        <p
+                          className=""
+                          key="0"
+                        >
+                          0
+                        </p>
+                        <p
+                          className=""
+                          key="1"
+                        >
+                          1
+                        </p>
+                        <p
+                          className=""
+                          key="2"
+                        >
+                          2
+                        </p>
+                        <p
+                          className=""
+                          key="3"
+                        >
+                          3
+                        </p>
+                        <p
+                          className=""
+                          key="4"
+                        >
+                          4
+                        </p>
+                        <p
+                          className=""
+                          key="5"
+                        >
+                          5
+                        </p>
+                        <p
+                          className=""
+                          key="6"
+                        >
+                          6
+                        </p>
+                        <p
+                          className=""
+                          key="7"
+                        >
+                          7
+                        </p>
+                        <p
+                          className=""
+                          key="8"
+                        >
+                          8
+                        </p>
+                        <p
+                          className=""
+                          key="9"
+                        >
+                          9
+                        </p>
+                        <p
+                          className=""
+                          key="10"
+                        >
+                          0
+                        </p>
+                        <p
+                          className=""
+                          key="11"
+                        >
+                          1
+                        </p>
+                        <p
+                          className=""
+                          key="12"
+                        >
+                          2
+                        </p>
+                        <p
+                          className=""
+                          key="13"
+                        >
+                          3
+                        </p>
+                        <p
+                          className="current"
+                          key="14"
+                        >
+                          4
+                        </p>
+                        <p
+                          className=""
+                          key="15"
+                        >
+                          5
+                        </p>
+                        <p
+                          className=""
+                          key="16"
+                        >
+                          6
+                        </p>
+                        <p
+                          className=""
+                          key="17"
+                        >
+                          7
+                        </p>
+                        <p
+                          className=""
+                          key="18"
+                        >
+                          8
+                        </p>
+                        <p
+                          className=""
+                          key="19"
+                        >
+                          9
+                        </p>
+                        <p
+                          className=""
+                          key="20"
+                        >
+                          0
+                        </p>
+                        <p
+                          className=""
+                          key="21"
+                        >
+                          1
+                        </p>
+                        <p
+                          className=""
+                          key="22"
+                        >
+                          2
+                        </p>
+                        <p
+                          className=""
+                          key="23"
+                        >
+                          3
+                        </p>
+                        <p
+                          className=""
+                          key="24"
+                        >
+                          4
+                        </p>
+                        <p
+                          className=""
+                          key="25"
+                        >
+                          5
+                        </p>
+                        <p
+                          className=""
+                          key="26"
+                        >
+                          6
+                        </p>
+                        <p
+                          className=""
+                          key="27"
+                        >
+                          7
+                        </p>
+                        <p
+                          className=""
+                          key="28"
+                        >
+                          8
+                        </p>
+                        <p
+                          className=""
+                          key="29"
+                        >
+                          9
+                        </p>
+                      </span>
+                    </sup>
+                  </ScrollNumber>
+                </AnimateChild>
+              </Animate>
+            </span>
+          </Badge>
+        </Trigger>
+      </Tooltip>
+    </Tooltip>
+  </Popover>
+</MiniCart>
+`;

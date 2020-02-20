@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCard /> Should match snapshot 1`] = `
+<ProductCard
+  addToCart={[MockFunction]}
+  product={
+    Object {
+      "id": "f56cb6f2-a926-4ff4-80be-4518b0d1997d",
+      "imageUrl": "https://s.catch.com.au/images/product/0001/1431/57aa8e0fcba93464428129_w200.jpg",
+      "name": "Havaianas Top Thongs -  Black",
+      "quantityAvailable": 71,
+      "retailPrice": 2500,
+      "salePrice": 1499,
+    }
+  }
+>
+  <Card
+    className="productCard_f1ikuoel"
+    cover={
+      <React.Fragment>
+        <img
+          alt="Havaianas Top Thongs -  Black"
+          src="https://s.catch.com.au/images/product/0001/1431/57aa8e0fcba93464428129_w200.jpg"
+        />
+        <div
+          className="addToCart f1cehv6o"
+        >
+          <Button
+            block={false}
+            ghost={false}
+            htmlType="button"
+            loading={false}
+            onClick={[Function]}
+            type="primary"
+          >
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon={
+                Object {
+                  "icon": Array [
+                    576,
+                    512,
+                    Array [],
+                    "f217",
+                    "M504.717 320H211.572l6.545 32h268.418c15.401 0 26.816 14.301 23.403 29.319l-5.517 24.276C523.112 414.668 536 433.828 536 456c0 31.202-25.519 56.444-56.824 55.994-29.823-.429-54.35-24.631-55.155-54.447-.44-16.287 6.085-31.049 16.803-41.548H231.176C241.553 426.165 248 440.326 248 456c0 31.813-26.528 57.431-58.67 55.938-28.54-1.325-51.751-24.385-53.251-52.917-1.158-22.034 10.436-41.455 28.051-51.586L93.883 64H24C10.745 64 0 53.255 0 40V24C0 10.745 10.745 0 24 0h102.529c11.401 0 21.228 8.021 23.513 19.19L159.208 64H551.99c15.401 0 26.816 14.301 23.403 29.319l-47.273 208C525.637 312.246 515.923 320 504.717 320zM408 168h-48v-40c0-8.837-7.163-16-16-16h-16c-8.837 0-16 7.163-16 16v40h-48c-8.837 0-16 7.163-16 16v16c0 8.837 7.163 16 16 16h48v40c0 8.837 7.163 16 16 16h16c8.837 0 16-7.163 16-16v-40h48c8.837 0 16-7.163 16-16v-16c0-8.837-7.163-16-16-16z",
+                  ],
+                  "iconName": "cart-plus",
+                  "prefix": "fas",
+                }
+              }
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              swapOpacity={false}
+              symbol={false}
+              title=""
+              transform={null}
+            />
+              Add to cart
+          </Button>
+        </div>
+      </React.Fragment>
+    }
+    hoverable={true}
+  >
+    <div
+      className="ant-card productCard_f1ikuoel ant-card-bordered ant-card-hoverable"
+    >
+      <div
+        className="ant-card-cover"
+      >
+        <img
+          alt="Havaianas Top Thongs -  Black"
+          src="https://s.catch.com.au/images/product/0001/1431/57aa8e0fcba93464428129_w200.jpg"
+        />
+        <div
+          className="addToCart f1cehv6o"
+        >
+          <Button
+            block={false}
+            ghost={false}
+            htmlType="button"
+            loading={false}
+            onClick={[Function]}
+            type="primary"
+          >
+            <Wave>
+              <button
+                className="ant-btn ant-btn-primary"
+                onClick={[Function]}
+                type="button"
+              >
+                <FontAwesomeIcon
+                  border={false}
+                  className=""
+                  fixedWidth={false}
+                  flip={null}
+                  icon={
+                    Object {
+                      "icon": Array [
+                        576,
+                        512,
+                        Array [],
+                        "f217",
+                        "M504.717 320H211.572l6.545 32h268.418c15.401 0 26.816 14.301 23.403 29.319l-5.517 24.276C523.112 414.668 536 433.828 536 456c0 31.202-25.519 56.444-56.824 55.994-29.823-.429-54.35-24.631-55.155-54.447-.44-16.287 6.085-31.049 16.803-41.548H231.176C241.553 426.165 248 440.326 248 456c0 31.813-26.528 57.431-58.67 55.938-28.54-1.325-51.751-24.385-53.251-52.917-1.158-22.034 10.436-41.455 28.051-51.586L93.883 64H24C10.745 64 0 53.255 0 40V24C0 10.745 10.745 0 24 0h102.529c11.401 0 21.228 8.021 23.513 19.19L159.208 64H551.99c15.401 0 26.816 14.301 23.403 29.319l-47.273 208C525.637 312.246 515.923 320 504.717 320zM408 168h-48v-40c0-8.837-7.163-16-16-16h-16c-8.837 0-16 7.163-16 16v40h-48c-8.837 0-16 7.163-16 16v16c0 8.837 7.163 16 16 16h48v40c0 8.837 7.163 16 16 16h16c8.837 0 16-7.163 16-16v-40h48c8.837 0 16-7.163 16-16v-16c0-8.837-7.163-16-16-16z",
+                      ],
+                      "iconName": "cart-plus",
+                      "prefix": "fas",
+                    }
+                  }
+                  inverse={false}
+                  key=".0"
+                  listItem={false}
+                  mask={null}
+                  pull={null}
+                  pulse={false}
+                  rotation={null}
+                  size={null}
+                  spin={false}
+                  swapOpacity={false}
+                  symbol={false}
+                  title=""
+                  transform={null}
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="svg-inline--fa fa-cart-plus fa-w-18 "
+                    data-icon="cart-plus"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    style={Object {}}
+                    viewBox="0 0 576 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M504.717 320H211.572l6.545 32h268.418c15.401 0 26.816 14.301 23.403 29.319l-5.517 24.276C523.112 414.668 536 433.828 536 456c0 31.202-25.519 56.444-56.824 55.994-29.823-.429-54.35-24.631-55.155-54.447-.44-16.287 6.085-31.049 16.803-41.548H231.176C241.553 426.165 248 440.326 248 456c0 31.813-26.528 57.431-58.67 55.938-28.54-1.325-51.751-24.385-53.251-52.917-1.158-22.034 10.436-41.455 28.051-51.586L93.883 64H24C10.745 64 0 53.255 0 40V24C0 10.745 10.745 0 24 0h102.529c11.401 0 21.228 8.021 23.513 19.19L159.208 64H551.99c15.401 0 26.816 14.301 23.403 29.319l-47.273 208C525.637 312.246 515.923 320 504.717 320zM408 168h-48v-40c0-8.837-7.163-16-16-16h-16c-8.837 0-16 7.163-16 16v40h-48c-8.837 0-16 7.163-16 16v16c0 8.837 7.163 16 16 16h48v40c0 8.837 7.163 16 16 16h16c8.837 0 16-7.163 16-16v-40h48c8.837 0 16-7.163 16-16v-16c0-8.837-7.163-16-16-16z"
+                      fill="currentColor"
+                      style={Object {}}
+                    />
+                  </svg>
+                </FontAwesomeIcon>
+                <span
+                  key=".1"
+                >
+                    Add to cart
+                </span>
+              </button>
+            </Wave>
+          </Button>
+        </div>
+      </div>
+      <div
+        className="ant-card-body"
+        style={Object {}}
+      >
+        <p>
+          <Truncate
+            ellipsis="…"
+            lines={3}
+            trimWhitespace={false}
+            width={0}
+          >
+            <span
+              width={0}
+            >
+              <span />
+              <span>
+                Havaianas Top Thongs -  Black
+              </span>
+              <span
+                style={
+                  Object {
+                    "left": 0,
+                    "position": "fixed",
+                    "top": 0,
+                    "visibility": "hidden",
+                  }
+                }
+              >
+                …
+              </span>
+            </span>
+          </Truncate>
+        </p>
+        <PriceTag
+          quantityAvailable={71}
+          retailPrice={2500}
+          salePrice={1499}
+        >
+          <div
+            className="f1dit65d"
+          >
+            <div
+              className="f1hzeoet"
+            >
+              A$25
+            </div>
+            <div
+              className="f1vbmov9"
+            >
+              A$14.99
+            </div>
+          </div>
+        </PriceTag>
+      </div>
+    </div>
+  </Card>
+</ProductCard>
+`;
